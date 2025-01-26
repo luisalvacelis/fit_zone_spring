@@ -12,7 +12,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import java.util.List;
 import java.util.Scanner;
 
-@SpringBootApplication
+//@SpringBootApplication
 public class FitZoneSpringApplication implements CommandLineRunner {
 
     @Autowired
@@ -22,7 +22,7 @@ public class FitZoneSpringApplication implements CommandLineRunner {
 
     public static void main(String[] args) {
         logger.info("Iniciando la aplicacion");
-        SpringApplication.run(FitZoneSpringApplication.class, args);
+        //SpringApplication.run(FitZoneSpringApplication.class, args);
         logger.info("Aplicacion finalizada");
     }
 
